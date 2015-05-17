@@ -1,5 +1,5 @@
 require("jasmine");
-var bundler = require("./bundler");
+var bundler = require("./fixtures/bundler");
 
 describe("A suite", function() {
     it("contains a spec", function() {

@@ -99,7 +99,7 @@ function plugin(bundle, opts) {
                             column: sourceColumn
                         },
                         name: name,
-                        source: source
+                        source: sourceRelPath
                     });
                 });
             });
