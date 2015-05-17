@@ -1,0 +1,35 @@
+{
+  "name": "sourceify",
+  "version": "0.0.1",
+  "description": "Helps Browserify apply existing source maps of the files it is bundling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hashfoo/sourceify.git"
+  },
+  "keywords": [
+    "sourcemaps",
+    "browserify"
+  ],
+  "author": "hashfoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hashfoo/sourceify/issues"
+  },
+  "homepage": "https://github.com/hashfoo/sourceify",
+  "dependencies": {
+    "convert-source-map": "^1.1.0",
+    "source-map": "^0.4.2",
+    "through2": "^0.6.5",
+    "vinyl-buffer": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.0",
+    "jasmine": "^2.3.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
