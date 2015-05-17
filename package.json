@@ -1,6 +1,6 @@
 {
   "name": "sourceify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Helps Browserify apply existing source maps of the files it is bundling",
   "main": "index.js",
   "scripts": {
